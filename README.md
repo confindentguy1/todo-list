@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Functionality
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The functionality of a todo list application can vary depending on your specific requirements and desired features. However, here are some common functionalities you can consider implementing in your todo list application:
 
-## Available Scripts
+[x] Task Creation: Allow users to create new tasks by providing an input field where they can enter the task name and press a button or hit enter to add it to the list.
 
-In the project directory, you can run:
+[x] Task Display: Show the list of tasks with their relevant details, such as task name, due date, priority, or any other attributes you want to include:
+  [x] Task name
+  [x] Due date
+  [x] Priority
 
-### `npm start`
+[x] Task Editing: Enable users to edit existing tasks by providing an option to update the task name, due date, or any other properties associated with the task.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[x] Task Deletion: Allow users to delete tasks from the list when they are completed or no longer relevant.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[x] Task Completion: Provide an option to mark tasks as completed or mark them with a checkmark when the user finishes them.
 
-### `npm test`
+[ ] Task Filtering: Implement filters to allow users to view specific subsets of tasks, such as all tasks, completed tasks, or incomplete tasks. You can also provide filtering options based on priority or due date.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[ ] Task Sorting: Allow users to sort the tasks based on different criteria, such as due date, priority, or alphabetical order.
 
-### `npm run build`
+[ ] Task Persistence: Implement functionality to save tasks so that users can access them even after closing or refreshing the application. This can be achieved using local storage or integrating with a backend server for data persistence.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[ ] Task Reminders: If desired, you can add a feature to set reminders or notifications for tasks that have due dates, ensuring that users are alerted before their tasks are overdue.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Remember to create a clean and intuitive user interface, with smooth interactions and error handling for a seamless user experience.
